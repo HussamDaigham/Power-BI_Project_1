@@ -1,4 +1,4 @@
-# Data Jobs Dashboard w/ Power BI
+# Data Jobs Dashboard | Power BI
 
 
 ## Introduction
@@ -16,7 +16,7 @@ You can find the file for the dashboard here: [`Data_Jobs_Dashboard.pbix`](/Data
 
 This project demonstrates proficiency in the following Power BI tools and techniques:
 
--   **Data Transformation (ETL) with Power Query:** Cleaned, shaped, and prepared the raw data for analysis by handling blanks, changing data types, creating new columns and Standardizing inconsistent job platform names to improve data consistency and ensure accurate aggregation in visualizations.
+-   **Data Transformation (ETL) with Power Query:** Cleaned and prepared raw data by handling missing values, adjusting data types, and creating new columns. Additionally, standardized inconsistent job platform names to ensure accurate grouping and aggregation in visualizations.
 -   **Data Aggregation:** Used Power BI's built-in aggregation functions to calculate job metrics such as `Median Yearly Salary` and `Job Count`.
 -   **Core Charts:** Utilized **Column, Bar, Line, Scatter, Donut** and **Gauge Charts** to compare job counts and track trends over time.
 -   **Geospatial Analysis:** Leveraged **Map Charts** to visualize the global distribution of jobs.
@@ -36,17 +36,28 @@ This project demonstrates proficiency in the following Power BI tools and techni
 
 ![Data Jobs Dashboard Page 1](/images/project_1_page_1.png)  
 
-This is your mission control for the data job market. It showcases key KPIs like total job count, median salaries, and top job titles to give you a quick understanding of what's happening in the job market at a glance. All visuals are interactive to allow users to quickly filter by job title or date/quarter and then drill through to view specific details about the selected job title.
+Page 1 provides a high-level overview of the data job market, highlighting key metrics such as total job postings, median salaries, and the most in-demand roles. Interactive visuals allow users to filter results by job title and reporting period, with drill-through functionality providing access to more detailed information about individual roles.
 
-![Data Jobs Dashboard Page 1](/images/project_1_page_1_filtered.png)  
+![Filtered Data Jobs Dashboard Page 1](/images/project_1_page_1_filtered.png)  
 
 **Interactive Filtering Example:** Selecting Data Analyst and Q2 2024 updates the dashboard to display approximately 30K matching job postings, along with their corresponding salary metrics and trends.
 
 #### Notes:
-The Salary Star Rating evaluates job titles based on their median annual salaries. Roles with a median salary of $150,000 or higher receive five stars, while those below $75,000 receive zero stars. Ratings between these thresholds are assigned according to predefined salary ranges.
+The Salary Star Rating evaluates job titles based on their median annual salaries. The rating is calculated using a normalized salary scale ranging from $75,000 to $150,000, with the result rounded to the nearest whole star. Consequently, salaries below $82,500 receive zero stars, while salaries of $142,500 or higher receive five stars. Intermediate ratings are assigned in $15,000 salary increments.
 
 
-### Page 2: Job Title Drill Through
+| Star Rating | Median Annual Salary |
+|:---:|---|
+| ☆☆☆☆☆ (0 Stars) | Below $82,500 |
+| ★☆☆☆☆ (1 Star) | $82,500 – $97,499.99 |
+| ★★☆☆☆ (2 Stars) | $97,500 – $112,499.99 |
+| ★★★☆☆ (3 Stars) | $112,500 – $127,499.99 |
+| ★★★★☆ (4 Stars) | $127,500 – $142,499.99 |
+| ★★★★★ (5 Stars) | $142,500 and above |
+
+
+
+### Page 2: Job Title Drill-Through
 
 ![Data Jobs Dashboard Page 2](/images/project_1_page_2.png)  
 
@@ -61,10 +72,11 @@ This is the deep-dive page. From the main dashboard, you can drill through to th
 
 ---
 
-## Dataset Limitations:
+## Dataset Limitations
 -   **Degree Requirements:** A job posting that does not explicitly mention a degree may still require one.
 -   **Health Insurance:** A posting that does not mention health insurance does not necessarily indicate that the employer offers no coverage.
 -   **Remote Work:** Job postings not explicitly identified as remote should not automatically be classified as on-site positions.
+-   **Salary Data:** Salary statistics are calculated from postings containing available salary information and may not represent all job listings in the dataset.
 
 ---
 
