@@ -16,9 +16,8 @@ You can find the file for the dashboard here: [`Data_Jobs_Dashboard.pbix`](/Data
 
 This project demonstrates proficiency in the following Power BI tools and techniques:
 
--   **Data Transformation (ETL) with Power Query:** Cleaned, shaped, and prepared the raw data for analysis by handling blanks, changing data types, and creating new columns.
+-   **Data Transformation (ETL) with Power Query:** Cleaned, shaped, and prepared the raw data for analysis by handling blanks, changing data types, creating new columns and Standardizing inconsistent job platform names to improve data consistency and ensure accurate aggregation in visualizations.
 -   **Data Aggregation:** Used Power BI's built-in aggregation functions to calculate job metrics such as `Median Yearly Salary` and `Job Count`.
--   **Data Transformation:** Standardized inconsistent job platform names using Power Query to improve data consistency and ensure accurate aggregation in visualizations.
 -   **Core Charts:** Utilized **Column, Bar, Line, Scatter, Donut** and **Gauge Charts** to compare job counts and track trends over time.
 -   **Geospatial Analysis:** Leveraged **Map Charts** to visualize the global distribution of jobs.
 -   **KPI Indicators & Tables:** Used **Cards** to display key metrics and **Tables** to provide granular, sortable data.
