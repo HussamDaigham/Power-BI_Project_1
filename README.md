@@ -31,15 +31,15 @@ This project demonstrates proficiency in the following Power BI tools and techni
 
 ## Dashboard Overview
 
-*This report is split into three distinct pages to provide a high-level summary and a detailed analysis.*
+*The report consists of three interactive pages: a high-level market overview, an original career opportunities analysis, and a job-specific drillthrough page.*
 
 ### Page 1: High-Level Market View
 
-![Data Jobs Dashboard Page 1](/images/project_1_page_1.png)  
+![Data Jobs Dashboard](/images/Data_Jobs_Dashboard.png)  
 
 Page 1 provides a high-level overview of the data job market, highlighting key metrics such as total job postings, median salaries, and the most in-demand roles. Interactive visuals allow users to filter results by job title and reporting period, with drill-through functionality providing access to more detailed information about individual roles by selecting a job title from one of the visuals and clicking the 'View Job Details' button.
 
-![Filtered Data Jobs Dashboard Page 1](/images/project_1_page_1_filtered.png)  
+![Filtered Data Jobs Dashboard](/images/Filtered_Data_Jobs_Dashboard.png)  
 
 **Interactive Filtering Example:** Selecting Data Analyst and Q2 2024 updates the dashboard to display approximately 30K matching job postings, along with their corresponding salary metrics and trends.
 
@@ -59,62 +59,68 @@ The Salary Star Rating evaluates job titles based on their median annual salarie
 
 ### Page 2: Career Opportunities Analysis
 
-![Data Jobs Dashboard Page 3](/images/project_1_page_2.png)
+![Data Career Opportunities Analysis](/images/Career_Opportunities_Analysis.png)
 
-Page 2 provides details about job postings based on metrics such as remote work and the mention of a degree. This dashboard compares the salaries and demand for different job titles as well as their salaries based on the work status and the mention of a degree. Users can click the home icon to go back to the main dashboard or select a job title from one of the visuals and go to the deep-dive page for more details.
+Page 2 presents the original **Career Opportunities Analysis**, comparing job demand, median annual salaries, remote-work availability, and degree-mention classifications across different job titles. The dashboard combines these metrics to help users evaluate career opportunities and investigate differences in compensation.
 
-![Filtered Data Jobs Dashboard Page 2](/images/project_1_page_2_filtered.png)
+Users can filter results by job title, return to the main dashboard using the Home button, or select a job title from a visualization and click **View Job Details** to access the drillthrough page.
 
-**Interactive Filtering Example:** Selecting Data Engineer updates the dashboard to display that approximately 14.7% of Data Engineer job postings offer remote work and 52.6% mention a required degree. The updated dashboard also displays the corresponding salary metrics by remote work status and the mention of a degree.
+![Filtered Career Opportunities Analysis](/images/Filtered_Career_Opportunities_Analysis.png)
+
+**Interactive Filtering Example:** Selecting Data Engineer highlights the corresponding results across the dashboard, showing that approximately 14.7% of Data Engineer postings are identified as remote and 52.6% fall under the "Degree Mentioned" category. The salary comparison charts also update to reflect the selected job title.
 
 
 
 ### Page 3: Job Title Drill-Through
 
-![Data Jobs Dashboard Page 3](/images/project_1_page_3.png)  
+![Data Jobs Drill-through](/images/Data_Jobs_Drill-through.png)  
 
-This is the deep-dive page. From the main dashboard, you can drill through to this view to get specific details for a single job title, including salary ranges, work-from-home stats, top hiring platforms, and a global map of job locations. Users can click the home icon to go back to the main dashboard and select a different job title or view the career analysis dashboard.
+Page 3 provides a detailed analysis of individual job titles selected from either analytical dashboard. It displays median salaries, remote-work availability, degree mentions, health insurance information, leading job posting platforms, employment types, and geographic distribution.
+
+Users can return to the main dashboard using the Home button or navigate directly to Career Opportunities Analysis.
 
 
 ## Original Analyses & Enhancements
 
-To expand upon the original course project, I developed a third dashboard page titled **Career Opportunities Analysis**. This page introduces three independent investigations aimed at helping job seekers better understand the relationships between salary, hiring demand, remote-work opportunities, and educational requirements.
+To expand upon the original course project, I developed an additional dashboard page titled **Career Opportunities Analysis**. This page introduces three independent investigations examining the relationships between salary, hiring demand, remote-work opportunities, and degree mentions to help job seekers make more informed career decisions.
 
 ### 1. Salary, Job Demand, and Remote Opportunities
-**Question:** Which data-related jobs offer the best combination of salary, demand, and remote-work opportunities?
+**Question:** Which data-related jobs offer the best combination of compensation, hiring demand, and remote-work opportunities?
 
 - Created a bubble chart comparing median annual salaries, job posting counts, and remote-work percentages across job titles.
 - Developed a separate bar chart ranking job titles by the percentage of postings offering remote work.
-- **Purpose:** Identify career opportunities that balance competitive salaries, strong hiring demand, and remote-work flexibility.
+
+**Purpose:** Identify career opportunities that balance competitive salaries, strong hiring demand, and remote-work flexibility.
 
 ### 2. Remote Work and Salary
 **Question:** How do median salaries differ between remote and non-remote-tagged job postings?
 
 - Created a column chart comparing median annual salaries between postings explicitly offering remote work and those not identified as remote.
-- **Purpose:** Investigate whether remote-work availability is associated with differences in compensation.
+
+**Purpose:** Investigate whether remote-work availability is associated with differences in compensation.
 
 ### 3. Degree Mentions and Salary
 **Question:** How do degree-mention classifications relate to job availability and compensation?
 
 - Created a column chart comparing the percentage of job postings across degree-mention categories.
 - Developed an additional visualization comparing median annual salaries between these categories.
-- **Purpose:** Explore how degree-related posting classifications are associated with hiring demand and salary differences.
+
+**Purpose:** Explore how degree-related posting classifications are associated with hiring demand and salary differences.
 
 ### Additional Technical Enhancements
 
-Beyond the original analyses, I implemented several improvements to the guided project:
-
-- **Power Query:** Standardized inconsistent job platform names and created descriptive categorical columns for remote-work and degree-mention classifications.
-- **DAX Measures:** Developed custom calculations for remote-work percentages to support comparisons across job titles.
-- **Interactive Reporting:** Added job-title filtering, navigation buttons, drillthrough functionality, and bookmark-based filter resets to improve dashboard usability.
+Beyond the original analyses, I standardized inconsistent job platform names, created descriptive categorical columns in Power Query, developed custom DAX measures, and enhanced navigation with interactive buttons and bookmarks.
 
 These additions extend the original guided project by demonstrating independent analytical thinking, data preparation, and interactive reporting skills.
 
 ## Dashboard Navigation
 
-- **Market Overview:** Users can filter job-market data using interactive charts and slicers, or select a job title from a chart to access the detailed drill-through page.
-- **Career Opportunities Analysis:** Users can explore the original investigations, filter results by job title, and drill-through to additional job-specific information.
-- **Job Title Drill-Through:** This detail page is accessible through the "View Job Details" buttons and provides additional information about the selected role.
+-   **Market Overview:** Users can filter job-market data using interactive charts and slicers, or select a job title from a chart to access the detailed drill-through page.
+-   **Career Opportunities Analysis:** Users can explore the original investigations, filter results by job title, and drillthrough to additional job-specific information.
+-   **Job Title Drill-Through:** This detail page is accessible through the "View Job Details" buttons and provides additional information about the selected role.
+-   **Independent Filtering:** The job-title slicers on Pages 1 and 2 operate independently, allowing users to explore different job titles on each dashboard without affecting the other page's filters.
+-   **Drillthrough Navigation:** The Job Title Drillthrough page is hidden from standard page navigation and can be accessed using the **View Job Details** buttons on either analytical dashboard, providing detailed information about the selected job title.
+
 
 Navigation buttons allow users to move between the two analytical pages, while filter-reset controls restore the relevant dashboard views.
 
@@ -124,8 +130,9 @@ Navigation buttons allow users to move between the two analytical pages, while f
 -   **Overall Job Market:** The dataset contains approximately 479,000 data-related job postings from 2024, with an overall median reported annual salary of approximately $113,000.
 -   **Most In-Demand Roles:** Data Engineer accounted for the largest share of postings (26.9%), followed by Data Analyst (23.6%) and Data Scientist (20.4%).
 -   **Remote Work Availability:** Approximately 10% of Data Analyst postings were explicitly identified as offering work-from-home opportunities.
--   **Remote Salary Compensation:** Postings tagged as remote have a median yearly salary of $130,000 compared to $113,000 for other postings
--   **Degree-mention Salary Compensation:** Postings that mention a degree have a median yearly salary of $114,000 compared to $110,000 for those that do not.
+-   **Salary vs. Hiring Demand:** Data Engineer offered a strong combination of hiring demand and compensation, with approximately 129,000 postings and a median annual salary of $126,000. Data Analyst also showed substantial demand, with approximately 113,000 postings, but had a lower median salary of $90,000.
+-   **Remote Work and Salary:** Remote-tagged postings had a median annual salary of approximately $130,000, compared to $113,000 for postings not explicitly identified as remote, representing a $17,000 difference.
+-   **Degree Mentions and Salary:** Postings classified as mentioning a degree had a median annual salary of approximately $114,000, compared to $110,000 for postings with no degree mentioned, representing a $4,000 difference.
 -   **Degree-mention Distribution:** Approximately 67.5% of job postings mention a degree.
 -   **Remote Opportunities by Job Title:** Machine Learning Engineer had one of the highest observed remote-posting percentages, approximately 17.8%.
 
@@ -141,5 +148,5 @@ Navigation buttons allow users to move between the two analytical pages, while f
 
 ## Conclusion
 
-This project demonstrates how Power BI can be used to transform job posting data into an interactive analytical report. By combining market-level trends with detailed job-title analysis, the dashboard helps users compare career opportunities while showcasing practical skills in data preparation, visualization, and interactive reporting. By extending the original guided project with independently developed analyses, the report demonstrates both technical Power BI proficiency and the ability to formulate and investigate meaningful business questions.
+This project demonstrates how Power BI can transform raw job posting data into an interactive analytical report. By extending the original guided project with independent analyses, DAX measures, and additional data transformations, the dashboard showcases both technical proficiency and the ability to investigate meaningful analytical questions. The resulting report allows users to explore hiring trends, compare career opportunities, and examine job-specific information.
 
