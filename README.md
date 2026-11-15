@@ -37,7 +37,9 @@ This project demonstrates proficiency in the following Power BI tools and techni
 
 ![Data Jobs Dashboard](/images/Data_Jobs_Dashboard.png)  
 
-Page 1 provides a high-level overview of the data job market, highlighting key metrics such as total job postings, median salaries, and the most in-demand roles. Interactive visuals allow users to filter results by job title and reporting period, with drill-through functionality providing access to more detailed information about individual roles by selecting a job title from one of the visuals and clicking the 'View Job Details' button.
+Page 1 provides a high-level overview of the data job market, highlighting key metrics such as total job postings, median salaries, and the most in-demand roles.
+
+Interactive visuals allow users to filter results by job title and reporting period, with drill-through functionality providing access to more detailed information about individual roles by selecting a job title from one of the visuals and clicking the 'View Job Details' button.
 
 ![Filtered Data Jobs Dashboard](/images/Filtered_Data_Jobs_Dashboard.png)  
 
@@ -116,14 +118,12 @@ These additions extend the original guided project by demonstrating independent 
 ## Dashboard Navigation
 
 -   **Market Overview:** Users can filter job-market data using interactive charts and slicers, or select a job title from a chart to access the detailed drill-through page.
--   **Career Opportunities Analysis:** Users can explore the original investigations, filter results by job title, and drillthrough to additional job-specific information.
+-   **Career Opportunities Analysis:** Users can explore the original investigations, filter results by job title, and drill through to additional job-specific information.
 -   **Job Title Drill-Through:** This detail page is accessible through the "View Job Details" buttons and provides additional information about the selected role.
 -   **Independent Filtering:** The job-title slicers on Pages 1 and 2 operate independently, allowing users to explore different job titles on each dashboard without affecting the other page's filters.
 -   **Drillthrough Navigation:** The Job Title Drillthrough page is hidden from standard page navigation and can be accessed using the **View Job Details** buttons on either analytical dashboard, providing detailed information about the selected job title.
 
-
 Navigation buttons allow users to move between the two analytical pages, while filter-reset controls restore the relevant dashboard views.
-
 
 ## Key Findings
 
@@ -133,7 +133,7 @@ Navigation buttons allow users to move between the two analytical pages, while f
 -   **Salary vs. Hiring Demand:** Data Engineer offered a strong combination of hiring demand and compensation, with approximately 129,000 postings and a median annual salary of $126,000. Data Analyst also showed substantial demand, with approximately 113,000 postings, but had a lower median salary of $90,000.
 -   **Remote Work and Salary:** Remote-tagged postings had a median annual salary of approximately $130,000, compared to $113,000 for postings not explicitly identified as remote, representing a $17,000 difference.
 -   **Degree Mentions and Salary:** Postings classified as mentioning a degree had a median annual salary of approximately $114,000, compared to $110,000 for postings with no degree mentioned, representing a $4,000 difference.
--   **Degree-mention Distribution:** Approximately 67.5% of job postings mention a degree.
+-   **Degree Mention Distribution:** Approximately 67.5% of job postings mention a degree.
 -   **Remote Opportunities by Job Title:** Machine Learning Engineer had one of the highest observed remote-posting percentages, approximately 17.8%.
 
 ---
