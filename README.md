@@ -6,7 +6,7 @@ This interactive Power BI dashboard was initially developed as part of [Luke Bar
 
 The report consists of four interactive pages for exploring the data job market, comparing career opportunities, tracking year-over-year trends, and drilling through to individual job titles.
 
-The current report uses a refreshed extract of Luke Barousse's job postings data covering January 1, 2023 through October 31, 2026. The original 2024 course dataset is available in the [course's GitHub repository](https://github.com/lukebarousse/PowerBI_Data_Analytics_Course/tree/main/Data).
+The current report uses a refreshed extract of Luke Barousse's [job postings data](https://drive.google.com/drive/folders/1winM7RZRzhxuKLs6RNDGWQ1rqc0koPph) covering January 1, 2023 through October 31, 2026. The original 2024 course dataset is available in the [course's GitHub repository](https://github.com/lukebarousse/PowerBI_Data_Analytics_Course/tree/main/Data).
 
 ### Dashboard File
 You can find the file for the dashboard here: [`Data_Jobs_Dashboard.pbix`](/Data_Jobs_Dashboard.pbix).  
@@ -162,5 +162,5 @@ These additions extend the original guided project by demonstrating independent 
 
 ## Conclusion
 
-This project demonstrates how Power BI can transform raw job posting data into an interactive analytical report. By extending the original guided project with independent analyses, DAX measures, and additional data transformations, the dashboard showcases both technical proficiency and the ability to investigate meaningful analytical questions. The resulting report allows users to explore hiring trends, compare career opportunities, and examine job-specific information.
+This project demonstrates how Power BI can transform raw job posting data into an interactive analytical report. By extending the original guided project with independent analyses, DAX measures, and additional data transformations, the dashboard showcases both technical proficiency and the ability to investigate meaningful analytical questions. The resulting report allows users to explore hiring trends, compare career opportunities, multi-year trends, and examine job-specific information.
 
