@@ -162,5 +162,5 @@ These additions extend the original guided project by demonstrating independent 
 
 ## Conclusion
 
-This project demonstrates how Power BI can transform raw job posting data into an interactive analytical report. By extending the original guided project with independent analyses, DAX measures, and additional data transformations, the dashboard showcases both technical proficiency and the ability to investigate meaningful analytical questions. The resulting report allows users to explore hiring trends, compare career opportunities, multi-year trends, and examine job-specific information.
+This project demonstrates how Power BI can transform raw job posting data into an interactive analytical report. By extending the original guided project with independent analyses, DAX measures, and additional data transformations, the dashboard showcases both technical proficiency and the ability to investigate meaningful analytical questions. The resulting report allows users to explore hiring trends, compare career opportunities, analyze multi-year trends, and examine job-specific information.
 
