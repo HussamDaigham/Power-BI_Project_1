@@ -44,7 +44,7 @@ Use **Job Posted Year** to filter the page, or select a role from a chart and cl
 
 **Interactive Filtering Example:** Selecting 2024 in **Job Posted Year** shows approximately 481,000 postings and a median reported annual salary of $115,000.
 
-#### Notes:
+#### Note:
 The Salary Star Rating evaluates job titles based on their median annual salaries. The rating is calculated using a normalized salary scale ranging from $75,000 to $150,000, with the result rounded to the nearest whole star. Consequently, salaries below $82,500 receive zero stars, while salaries of $142,500 or higher receive five stars. Intermediate ratings are assigned in $15,000 salary increments.
 
 
@@ -139,7 +139,7 @@ These additions extend the original guided project by demonstrating independent 
 
 ## Key Findings
 
--   **Overall Job Market:** The dataset contains 2,008,270 postings from January 2023 through October 2026. The overall median reported annual salary was $118,000.
+-   **Overall Job Market:** The dataset contains 2,008,270 job postings from January 2023 through October 2026. Among postings with reported annual salary information, the median salary was $118,000.
 -   **Most In-Demand Roles:** Data Analyst accounted for the largest share of postings (25.0%), followed by Data Engineer (24.1%) and Data Scientist (19.7%).
 -   **Remote Work Availability:** Approximately 7.2% of Data Analyst postings were tagged as remote.
 -   **Salary vs. Hiring Demand:** Data Engineer had 483,559 postings and a median reported annual salary of $131,636. Data Analyst had 502,810 postings and a median reported annual salary of $92,528.
@@ -156,7 +156,7 @@ These additions extend the original guided project by demonstrating independent 
 -   **Health Insurance:** A posting that does not mention health insurance does not necessarily indicate that the employer offers no coverage.
 -   **Remote Work:** Job postings not explicitly identified as remote should not automatically be classified as on-site positions.
 -   **Time Coverage:** The 2026 data ends on October 31. Both Trends charts use January through October for each year. Posting counts reflect the dataset, and differences in coverage can affect comparisons.
--   **Salary Data Coverage:** Salary statistics use the 103,533 postings with reported annual pay, approximately 5.2% of the dataset. Salary reporting can vary by year and role.
+-   **Salary Data Coverage:** Of the 2,008,270 job postings analyzed, 103,533 (approximately 5.2%) contained reported annual salary information. Postings without annual salary values were excluded from salary-related calculations. As salary reporting may vary across job titles, locations, and years, these findings may not fully represent compensation across the entire job market.
 -   **Salary Comparisons:** Differences in median salaries between job categories do not necessarily mean that one characteristic causes higher pay. Other factors, such as job title, experience, and location, may contribute to these differences.
 ---
 
