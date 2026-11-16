@@ -1,5 +1,4 @@
-# Data Jobs Dashboard | Power BI
-
+# Data Job Market Analysis (2023–2026) | Power BI
 
 ## Introduction
 
@@ -91,7 +90,7 @@ Users can return to the main dashboard using the Home button or navigate directl
 
 ## Original Analyses & Enhancements
 
-To expand upon the original course project, I developed an additional dashboard page titled **Career Opportunities Analysis**. This page introduces three independent investigations examining the relationships between salary, hiring demand, remote-work opportunities, and degree mentions to help job seekers make more informed career decisions.
+To expand upon the original course project, I independently developed two additional analytical pages: **Career Opportunities Analysis** and **Job Market Trends (2023–2026)**. Together, these pages introduce four original investigations and seven additional visualizations examining compensation, hiring demand, remote-work opportunities, degree mentions, and year-over-year job market trends.
 
 ### 1. Salary, Job Demand, and Remote Opportunities
 **Question:** Which data-related jobs offer the best combination of compensation, hiring demand, and remote-work opportunities?
