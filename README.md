@@ -74,6 +74,8 @@ Use **Job Posted Year** to filter the page, or select a job title in a chart to 
 
 ### Page 3: Job Market Trends (2023–2026)
 
+![Job Market Trends](/images/Job_Market_Trends.png)
+
 Two line charts compare job posting counts and median reported annual salaries by role and year. Both use the January 1–October 31 window for every year so the comparison uses the same months as the partial 2026 data.
 
 The role slicer defaults to Business Analyst, Data Analyst, Data Engineer, Data Scientist, and Software Engineer. The page is independent of the shared **Job Posted Year** slicer. Select a role's data point and click **View Job Details** to drill through.
